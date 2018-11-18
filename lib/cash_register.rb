@@ -1,6 +1,6 @@
 class CashRegister
 
-  attr_accessor :total, :discount
+  attr_accessor :total, :discount, :items
 
   def initialize(discount=0)
     @total = 0
@@ -12,4 +12,8 @@ class CashRegister
       self.total = (total * ((100.0 - discount.to_f)/100)).to_i
     end
   end
+
+  def add_item(title, price, items=1)
+    self.total += price * items
+    end
 end
