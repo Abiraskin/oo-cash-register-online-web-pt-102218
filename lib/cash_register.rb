@@ -7,6 +7,8 @@ class CashRegister
     @discount = discount
   end
 
-
+  def apply_discount
+    if discount > 0
+    
 
 end
