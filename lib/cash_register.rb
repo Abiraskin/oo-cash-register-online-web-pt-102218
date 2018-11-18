@@ -4,8 +4,7 @@ class Register
 
   def initialize
     total = []
-  end  
+  end
 
 
 end
-  
