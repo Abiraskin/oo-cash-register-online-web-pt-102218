@@ -22,5 +22,5 @@ class CashRegister
     items.times do
       items << title
     end
-  end  
+  end
 end
